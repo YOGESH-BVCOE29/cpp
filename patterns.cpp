@@ -10,7 +10,21 @@ int main(){
         cout << j ;
     } cout << endl;
    } 
-   // (2)  
+   // (2)   pattern problem 2 
+    // 1 2 3
+    // 4 5 6
+    // 7 8 9
+     int m;
+     cout << "enter the number :";
+     cin >> m;
+     int num =1;
+     for(int i=0; i<m; i++){
+        for(int j=0; j<m; j++){
+            cout << num;
+            num++;
+        } cout << endl;
+     }
+
 
 
     return 0;
