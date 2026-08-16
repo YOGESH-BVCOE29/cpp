@@ -24,6 +24,22 @@ int main(){
             num++;
         } cout << endl;
      }
+// (3) pattern problem 3
+//  triangle pattern n=4
+// *
+// **
+// ***
+// ****
+    int a; 
+    cout << "enter the number:";
+    cin >> a;
+    for(int i=0; i<a; i++){
+        for(int j=0; j<i+1; j++){
+         cout << "*";
+        }   
+    cout << endl;
+    }
+
 
 
 
