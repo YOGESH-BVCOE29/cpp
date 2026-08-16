@@ -39,6 +39,25 @@ int main(){
         }   
     cout << endl;
     }
+// (4) pattern problem 4
+// for numbers triangle pattern
+// 1
+// 22
+// 333
+// 4444
+   int b;
+   cout << "enter the number";
+   cin >> b;
+   for(int i=0; i<a; i++){
+        for(int j=0; j<i+1; j++){
+        cout << i+1;
+        }
+     cout << endl;
+    }
+
+
+
+
 
 
 
