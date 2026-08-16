@@ -54,7 +54,21 @@ int main(){
         }
      cout << endl;
     }
-
+// (5) pattern problem 5
+  // reverse triangke pattern 
+//   1
+//   21
+//   321
+//   4321
+int c;
+cout << "enter the number:";
+cin >> c;
+for(int i=0; i<c; i++){
+    for(int j=i+1; j>0; j--){
+        cout << j;
+    } cout << endl;
+}
+// 
 
 
 
