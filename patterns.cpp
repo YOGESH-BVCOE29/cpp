@@ -68,13 +68,21 @@ for(int i=0; i<c; i++){
         cout << j;
     } cout << endl;
 }
-// 
+// (6) floyds pattern n=4
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
+int nm = 1;
+int d;
+cout << "enter the number" ;
+cin >> d;
+for(int i=0; i<d; i++){
+    for(int j=0; j<i+1; j++){
+        cout << nm;
+        nm++;
+    } cout << endl;
 
-
-
-
-
-
-
+}
     return 0;
 } 
