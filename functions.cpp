@@ -24,7 +24,7 @@ void sumn(int n){
 // calculating the n factorial 
 int fact(int m){
     int f = 1;
-    for(int i=0; i<=m; i++){
+    for(int i=1; i<=m; i++){
         f = f*i;
     } return f;
 }
@@ -33,6 +33,7 @@ int main(){
   cout << sum(6, 3) << endl;
  cout << mintwo(5, 6) << endl; // argument are value passed to a functio
  sumn(5);
+ cout << endl;
 cout << fact(5) << endl;
 
 
