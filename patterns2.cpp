@@ -18,6 +18,11 @@ for(int i=0; i<n; i++){
         } 
  cout << endl;
     } 
+// pyramid problem
+//    1
+//   121
+//  12321
+// 1234321
     int a; 
     cout << "print the number ";
     cin >> a;
@@ -31,12 +36,19 @@ for(int i=0; i<n; i++){
         cout << j;
     } cout << endl;
     }
+//  hollow diamond pattern
+//     *   
+//    *  *
+//   *     *
+//  *       *
+//   *     * 
+//     *  *
+//       *
+int b;
 
 
 
-
-
-
+       
 
 
 
