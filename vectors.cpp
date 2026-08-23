@@ -34,6 +34,7 @@ cout << endl;
 // front 
 cout << vec.front() << endl;
 cout << vec.back() << endl;
-cout << vec.at(2) << endl;
+cout << vec.at(2) << endl; 
+
     return 0;
 }
