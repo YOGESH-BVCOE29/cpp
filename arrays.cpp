@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+
 int main(){
 int marks[] = {89, 90, 60, 30, 40};
 
@@ -28,6 +29,8 @@ for(int i=0; i<5; i++){
         smallest = arr[i];
     } 
 }cout << smallest << endl;
+
+
 
 
 
