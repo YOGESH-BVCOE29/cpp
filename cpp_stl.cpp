@@ -3,6 +3,8 @@
 #include<list>
 #include<stack>
 #include<deque>
+#include<map>
+#include<queue>
 using namespace std;
 int main(){
 // VECTORS
@@ -50,6 +52,24 @@ while(!s.empty()){
     s.pop();
 }
 cout << endl;
+queue<int> q;
+q.push(1);
+q.push(2);
+q.push(3);
+while(!q.empty()){
+    cout << q.front() <<" ";
+    q.pop();
+} cout << endl;
+//maps 
+map<string,  int> m;
+m["tv"] = 100;
+m["laptop"] = 100;
+m["headphones"] = 50;
+m["tablet"] = 120;
+m["watch"] = 50;
+for(auto p:m) {
+    cout << p.first << " " << p.second << endl;
+}
 
 
     return 0;
