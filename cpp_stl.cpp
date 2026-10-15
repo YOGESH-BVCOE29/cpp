@@ -1,6 +1,7 @@
 #include<iostream>
 #include <vector>
 #include<list>
+#include<stack>
 #include<deque>
 using namespace std;
 int main(){
@@ -39,7 +40,16 @@ d.pop_front();
 for(int val:d){
     cout << val << " ";
 } cout << endl;
-
+// stack 
+stack<int> s; 
+s.push(3);
+s.push(2);
+s.push(1);
+while(!s.empty()){
+    cout << s.top() << " ";
+    s.pop();
+}
+cout << endl;
 
 
     return 0;
